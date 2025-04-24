@@ -1,0 +1,124 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    margin: 0;
+}
+.todo{
+    font-family: "Roboto";
+} 
+  
+ul {
+    list-style-type: none;
+    background-color: #e4002b;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    padding: 15px; 
+    border-radius: 10px;  
+  }
+
+li{
+    flex: auto;
+  }
+
+.video_fondo{
+    position: relative;
+    height: 500px;
+    margin-bottom: 20px;
+  }
+.video_fondo video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(45%);
+  }
+.contenedor {
+    background-image: url('pizza-fondo.jpg');
+    background: #e4002b;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 80px 20px;
+    color: white;
+  }
+.presentacion h1 {
+    font-size: 45px;
+    font-family: "Great Vibes", cursive;
+  }
+  
+.presentacion p {
+    margin-top: 10px;
+    font-size: 25px;
+  }
+.logo {
+    margin-top: 20px;
+    width: 250px;
+    border-radius: 10px;
+  }
+.sobre-nosotros {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: white;
+    font-family: "Roboto";
+  }
+  
+.sobre-nosotros h2 {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+.sobre-nosotros p {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    color: #555;
+  }
+  
+.imagenes {
+    display: flex;
+    justify-content: center;
+  } 
+
+.imagenes img{
+    width: 180px;
+    border-radius: 10px;
+    margin: 10px;
+    transition: transform 0.5s 0S linear;
+  } 
+
+.whatsapp{
+    color: lightgreen;
+    font-size: 50px;
+}  
+
+.menu{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+
+.menu a:hover{
+    background-color:#f7b600;
+}
+
+.imagenes img:hover{
+    transform: scale(1.2);
+}
+
+.redes{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+  
+  
